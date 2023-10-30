@@ -28,7 +28,7 @@ export function App() {
 
     const addPost = (title, descr) => {
         const newPost = {
-            id: Date.now(),
+            id: posts.length + 1,
             title,
             body: descr
         }
